@@ -15,6 +15,7 @@
 		4D4AF32425B1E329003689B7 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AF32325B1E329003689B7 /* PastOrderViewController.swift */; };
 		4D4AF32725B1E380003689B7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AF32625B1E380003689B7 /* TabBarController.swift */; };
 		4D4AF33225B1E69A003689B7 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AF33125B1E69A003689B7 /* NewItemCell.swift */; };
+		4D4AF33725B1EBE8003689B7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AF33625B1EBE8003689B7 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4D4AF32325B1E329003689B7 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
 		4D4AF32625B1E380003689B7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		4D4AF33125B1E69A003689B7 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
+		4D4AF33625B1EBE8003689B7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				4D4AF32625B1E380003689B7 /* TabBarController.swift */,
 				4D4AF30D25B16BF0003689B7 /* NewOrderViewController.swift */,
 				4D4AF32325B1E329003689B7 /* PastOrderViewController.swift */,
+				4D4AF33625B1EBE8003689B7 /* Item.swift */,
 				4D4AF33125B1E69A003689B7 /* NewItemCell.swift */,
 				4D4AF31225B16BF3003689B7 /* Assets.xcassets */,
 				4D4AF31425B16BF3003689B7 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				4D4AF30A25B16BF0003689B7 /* AppDelegate.swift in Sources */,
 				4D4AF30C25B16BF0003689B7 /* SceneDelegate.swift in Sources */,
 				4D4AF32725B1E380003689B7 /* TabBarController.swift in Sources */,
+				4D4AF33725B1EBE8003689B7 /* Item.swift in Sources */,
 				4D4AF32425B1E329003689B7 /* PastOrderViewController.swift in Sources */,
 				4D4AF33225B1E69A003689B7 /* NewItemCell.swift in Sources */,
 			);
