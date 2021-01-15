@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		4D4AF30A25B16BF0003689B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AF30925B16BF0003689B7 /* AppDelegate.swift */; };
 		4D4AF30C25B16BF0003689B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AF30B25B16BF0003689B7 /* SceneDelegate.swift */; };
-		4D4AF30E25B16BF0003689B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AF30D25B16BF0003689B7 /* ViewController.swift */; };
+		4D4AF30E25B16BF0003689B7 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AF30D25B16BF0003689B7 /* NewOrderViewController.swift */; };
 		4D4AF31325B16BF3003689B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4AF31225B16BF3003689B7 /* Assets.xcassets */; };
 		4D4AF31625B16BF3003689B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4AF31425B16BF3003689B7 /* LaunchScreen.storyboard */; };
+		4D4AF32425B1E329003689B7 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AF32325B1E329003689B7 /* PastOrderViewController.swift */; };
+		4D4AF32725B1E380003689B7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AF32625B1E380003689B7 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D4AF30625B16BF0003689B7 /* BotShopIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotShopIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4AF30925B16BF0003689B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D4AF30B25B16BF0003689B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D4AF30D25B16BF0003689B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D4AF30D25B16BF0003689B7 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
 		4D4AF31225B16BF3003689B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D4AF31525B16BF3003689B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D4AF31725B16BF3003689B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D4AF32325B1E329003689B7 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
+		4D4AF32625B1E380003689B7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				4D4AF30925B16BF0003689B7 /* AppDelegate.swift */,
 				4D4AF30B25B16BF0003689B7 /* SceneDelegate.swift */,
-				4D4AF30D25B16BF0003689B7 /* ViewController.swift */,
+				4D4AF32625B1E380003689B7 /* TabBarController.swift */,
+				4D4AF30D25B16BF0003689B7 /* NewOrderViewController.swift */,
+				4D4AF32325B1E329003689B7 /* PastOrderViewController.swift */,
 				4D4AF31225B16BF3003689B7 /* Assets.xcassets */,
 				4D4AF31425B16BF3003689B7 /* LaunchScreen.storyboard */,
 				4D4AF31725B16BF3003689B7 /* Info.plist */,
@@ -133,9 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D4AF30E25B16BF0003689B7 /* ViewController.swift in Sources */,
+				4D4AF30E25B16BF0003689B7 /* NewOrderViewController.swift in Sources */,
 				4D4AF30A25B16BF0003689B7 /* AppDelegate.swift in Sources */,
 				4D4AF30C25B16BF0003689B7 /* SceneDelegate.swift in Sources */,
+				4D4AF32725B1E380003689B7 /* TabBarController.swift in Sources */,
+				4D4AF32425B1E329003689B7 /* PastOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

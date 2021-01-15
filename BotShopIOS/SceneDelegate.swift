@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
 
         // Create an instance of the main view controller and a navigation controller
-        let mainController = ViewController()
+        let mainController = TabBarController()
         let navigationController = UINavigationController(rootViewController: mainController)
 
         // Tell the window to load the main controller as it's root view
