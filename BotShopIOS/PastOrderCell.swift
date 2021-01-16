@@ -21,7 +21,7 @@ class PastOrderCell: UITableViewCell{
 
     let title: UILabel = {
         let title = UILabel()
-        title.font = UIFont(name: "AvenirNext-Bold", size: 20)
+        title.font = UIFont(name: "AvenirNext-Bold", size: 30)
         title.textColor = UIColor(red:0.29, green:0.29, blue:0.29, alpha:1.0)
         title.translatesAutoresizingMaskIntoConstraints = false
         return title

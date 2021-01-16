@@ -19,6 +19,8 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate{
         self.delegate = self
         setupViewControllers()
         setupTabBarIcons()
+//        Changing Tabbar Color
+        self.tabBar.tintColor = UIColor(red:0.49, green:0.84, blue:0.87, alpha:1.0)
     }
 
     
