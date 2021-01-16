@@ -55,7 +55,7 @@ class PastOrderCell: UITableViewCell{
         title.widthAnchor.constraint(equalTo: stackView.widthAnchor, multiplier: 0.55).isActive = true
     }
     
-    func setCellContents(item: Order){
+    func setCellContents(item: Item){
         itemImage.image = item.image
         title.text = item.title
     }
