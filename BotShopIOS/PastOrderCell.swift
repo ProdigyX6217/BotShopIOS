@@ -54,6 +54,16 @@ class PastOrderCell: UITableViewCell{
         stackView.addArrangedSubview(title)
         title.widthAnchor.constraint(equalTo: stackView.widthAnchor, multiplier: 0.55).isActive = true
     }
+    
+    func setCellContents(item: Order){
+        itemImage.image = item.image
+        title.text = item.title
+    }
+
+    func setBoxContents(box: Order){
+        textLabel?.text = box.title
+        imageView?.image = box.image
+    }
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

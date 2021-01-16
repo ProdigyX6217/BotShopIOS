@@ -1,5 +1,5 @@
 //
-//  PastOrderViewController.swift
+//  OrderList.swift
 //  BotShopIOS
 //
 //  Created by Student Laptop_7/19_1 on 1/15/21.
@@ -8,8 +8,8 @@
 import Foundation
 import UIKit
 
-class PastOrderViewController: UIViewController {
-    
+class OrderList: UIViewController {
+
     let orders = [Order(title: "July 2020", image: UIImage(named: "box")!),
     Order(title: "June 2020", image: UIImage(named: "box")!),
     Order(title: "May 2020", image: UIImage(named: "box")!),
@@ -41,7 +41,7 @@ class PastOrderViewController: UIViewController {
 
 }
 
-extension PastOrderViewController: UITableViewDataSource, UITableViewDelegate {
+extension OrderList: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return orders.count
     }
@@ -53,17 +53,9 @@ extension PastOrderViewController: UITableViewDataSource, UITableViewDelegate {
             cell.setCellContents(item: orders[indexPath.row])
         return cell
     }
-    
+
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100.0
     }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("selected!")
-        let nextVC: OrderList = OrderList()
-        self.navigationController?.pushViewController(nextVC, animated: true)
-    }
 
 }
-
-
